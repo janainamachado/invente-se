@@ -270,4 +270,31 @@ footer .column .socials a:hover{
     font-size: 2rem;
     padding: 1rem;
   }
+  .container-terra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    max-height: unset;
+  }
+
+  .container-terra .image {
+    max-width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .container-terra .content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .container-terra .content p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  footer .column .socials {
+    padding: 0;
+    justify-content: center;
+  }
 }
